@@ -23,7 +23,7 @@ def count_trage(N, allowed: list):
 
 #C[i] - cost - мин стоимость достижения клетки i
 
-#Минимальная стоимость достижения в клетку N
+ #Минимальная стоимость достижения в клетку N
 def count_min_cost(N, price: list):
     C = [float("-inf"), price[1], price[1]+price[2]] + [0]*(N-2)
     for i in range(3, N+1):
@@ -35,7 +35,7 @@ M = 2
 N = 3
 # A = [[0] * M] * N #Неправильное создавание двумерного массива
 
-A = [[0]*M for i in range(N)]
+A = [[0] * M for i in range(N)]
 print(A)
 print(A[0] is not A[1]) #is смотрит ссылается ли один объект на другой
 
