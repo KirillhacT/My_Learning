@@ -29,4 +29,5 @@ def search_substring(S, sub):
     for i in range(0, len(S)-len(sub)):
         if equal(S[i:i+len(sub)], sub):
             print(i)
+#Алгоритм КМП
 
